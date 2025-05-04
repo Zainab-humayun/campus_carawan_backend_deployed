@@ -66,7 +66,7 @@ export const signupFunc = async (req: Request, res: Response) => {
     }
     const hashedPassword = await bcrypt.hash(password, 10);
     const defaultProfilePic =
-      "http://localhost:5000/uploads/general/default.png";
+      "https://campuscarawanbackenddeployed-production.up.railway.app/";
 
     const newUser = await prisma.user.create({
       data: {
