@@ -21,7 +21,7 @@ const PORT = 8080;
 
 // Middleware
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: "https://campus-carawan-lums.up.railway.app",
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   credentials: true 
 }));
