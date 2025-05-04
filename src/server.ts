@@ -13,8 +13,6 @@ import cookieParser from "cookie-parser";
 import { app, server } from "./socket/socket.js";
 
 
-
-
 dotenv.config();
 
 // const app = express();
