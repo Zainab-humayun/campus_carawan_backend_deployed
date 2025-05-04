@@ -38,7 +38,7 @@ export const removeUserProfilePic = async (req: Request, res: Response) => {
       return;
     }
 
-    const defaultImageUrl = "http://127.0.0.1:5000/uploads/general/default.png";
+    const defaultImageUrl = "https://campuscarawanbackenddeployed-production.up.railway.app/default.png";
 
     await prisma.user.update({
       where: {
